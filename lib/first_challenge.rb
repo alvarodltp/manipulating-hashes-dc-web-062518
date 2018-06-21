@@ -18,9 +18,6 @@ def first_challenge
       value.each do |flavor|
         delete_if flavor == "strawberry"
       end
-    end
-
-
 
   #remember to return your newly altered contacts hash!
   contacts
